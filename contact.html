@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Contact - Portfolio</title>
+  
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    /* Extra styles for new sections */
+    .contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+    .contact-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .contact-card:hover {
+      transform: translateY(-5px);
+    }
+    .contact-icon {
+      font-size: 36px;
+      color: #198754;
+      margin-bottom: 10px;
+    }
+    .btn-download {
+      display: inline-block;
+      margin: 15px 0 40px;
+      background-color: #2196f3;
+      color: white;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .btn-download:hover {
+      background-color: #1976d2;
+    }
+    .map-section, .intro-video, .qr-code, .social-media {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 15px;
+      border-radius: 15px;
+      background: #f9f9f9;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .map-section iframe, .intro-video iframe, .intro-video video {
+      border-radius: 12px;
+      width: 100%;
+      height: 320px;
+    }
+    .social-media {
+      padding-top: 30px;
+    }
+    .social-btn {
+      display: inline-block;
+      margin: 10px 15px;
+      padding: 12px 30px;
+      font-size: 18px;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .linkedin { background: #0A66C2; }
+    .github { background: #333; }
+    .email { background: #D44638; }
+    .social-btn:hover {
+      opacity: 0.85;
+    }
+    .qr-code img {
+      margin-top: 15px;
+      width: 200px;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="logo"><i class="fas fa-user-circle"></i> My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+          <li><a href="academic.html"><i class="fas fa-graduation-cap"></i> Academic</a></li>
+          <li><a href="projects.html"><i class="fas fa-folder-open"></i> Work</a></li>
+          <li><a href="skills.html"><i class="fas fa-star"></i> Skills</a></li>
+          <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-title" style="text-align:center; margin: 40px 20px;">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out through any of the channels below or download my resume to know more about me!</p>
+    </section>
+
+    <!-- Contact cards -->
+    <section class="contact-section">
+      <div class="contact-card">
+        <i class="fas fa-envelope contact-icon"></i>
+        <h4>Email</h4>
+        <p><a href="mailto:mimiraub493@gmail.com">mimiraub493@gmail.com</a></p>
+      </div>
+
+      <div class="contact-card">
+        <i class="fas fa-phone contact-icon"></i>
+        <h4>Phone</h4>
+        <p><a href="tel:+60146427592">014-6427592</a></p>
+      </div>
+
+      <div class="contact-card">
+        <i class="fab fa-linkedin contact-icon"></i>
+        <h4>LinkedIn</h4>
+        <p><a href="https://www.linkedin.com/in/mimi-ain-479a07317/" target="_blank" rel="noopener">linkedin.com/in/mimi-ain-479a07317</a></p>
+      </div>
+
+      <div class="contact-card">
+        <i class="fab fa-github contact-icon"></i>
+        <h4>GitHub</h4>
+        <p><a href="https://mimiraub.github.io/portfolio/" target="_blank" rel="noopener">github.com/Mimiraub/portfolio/</a></p>
+      </div>
+    </section>
+
+   
+   
+
+  <footer style="text-align:center; margin: 30px 0;">
+    <p>&copy; 2025 Mimi Ain Aleeya Binti Raub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
